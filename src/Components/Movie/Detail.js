@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "../Styles/Detail.css";
+import "../../Styles/Detail.css";
 import { useParams } from "react-router-dom";
-import axios from "../js/axios";
+import axios from "../../js/axios";
 import { Link } from "react-router-dom";
-import createRipple from "../js/createRipple";
+import createRipple from "../../js/createRipple";
 import StarIcon from "@material-ui/icons/Star";
 import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
@@ -12,7 +12,7 @@ import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
 import PlayCircleOutlineIcon from "@material-ui/icons/PlayCircleOutline";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import MovieFilterIcon from "@material-ui/icons/MovieFilter";
-import { api_key, base } from "../js/requests";
+import { api_key, base } from "../../js/requests";
 import { IconButton } from "@material-ui/core";
 
 const Detail = ({ watchList, setWatchList }) => {
@@ -92,9 +92,7 @@ const Detail = ({ watchList, setWatchList }) => {
 							className="btn btn-play"
 							onClick={() => {
 								alert(
-									`Did you seriously think you can watch ${
-										current.title || current.name
-									} for free?? 🤣🤣 Come on now!!!`
+									"It is a demo website. Movies are not avaible here."
 								);
 							}}
 						>

@@ -1,6 +1,6 @@
 import React from "react";
-import requests from "../js/requests";
-import "../Styles/Nav.css";
+import requests from "../../js/requests";
+import "../../Styles/Nav.css";
 
 const Nav = ({ setGenre }) => {
 	return (

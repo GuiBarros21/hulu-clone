@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import Header from "./Components/Header";
-import Nav from "./Components/Nav";
-import Results from "./Components/Results";
-import Detail from "./Components/Detail";
-import Seasons from "./Components/Seasons";
+import Header from "./Components/Navigation/Header";
+import Nav from "./Components/Navigation/Nav";
+import Results from "./Components/Movie/Results";
+import Detail from "./Components/Movie/Detail";
+import Seasons from "./Components/Movie/Seasons";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import requests, { existingWatchlist } from "./js/requests";
-import WatchList from "./Components/WatchList";
-import Search from "./Components/Search";
-import SearchPeople from "./Components/SearchPeople";
+import WatchList from "./Components/Navigation/WatchList";
+import Search from "./Components/Movie/Search";
+import SearchPeople from "./Components/Person/SearchPeople";
 import "./Styles/App.css";
 import "./Styles/WatchList.css";
-import Cast from "./Components/Cast";
-import KnownForMovies from "./Components/KnownForMovies";
-import SeasonDetail from "./Components/SeasonDetail";
-import Similars from "./Components/Similars";
+import Cast from "./Components/Cast/Cast";
+import KnownForMovies from "./Components/Person/KnownForMovies";
+import SeasonDetail from "./Components/Movie/SeasonDetail";
+import Similars from "./Components/Movie/Similars";
 
 function App() {
 	const [genre, setGenre] = useState(requests.fetchAction);

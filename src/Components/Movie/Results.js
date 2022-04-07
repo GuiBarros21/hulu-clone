@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import VideoCard from "./VideoCard";
-import axios from "../js/axios";
+import axios from "../../js/axios";
 import FlipMove from "react-flip-move";
-import "../Styles/Results.css";
+import "../../Styles/Results.css";
 
 const Results = ({ genre }) => {
 	const [movies, setMovies] = useState([]);

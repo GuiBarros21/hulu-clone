@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import LiveTvIcon from "@material-ui/icons/LiveTv";
-import "../Styles/Person.css";
-import { base } from "../js/requests";
+import "../../Styles/Person.css";
+import { base } from "../../js/requests";
 
 const Person = ({ value }) => {
 	const wikiSearchName = value.name.split(" ").join("_");

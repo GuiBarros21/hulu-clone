@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import SearchIcon from "@material-ui/icons/Search";
-import axios from "../js/axios";
+import axios from "../../js/axios";
 import VideoCard from "./VideoCard";
 import { IconButton } from "@material-ui/core";
-import { api_key } from "../js/requests";
-import "../Styles/Search.css";
+import { api_key } from "../../js/requests";
+import "../../Styles/Search.css";
 
 const Search = ({ type }) => {
 	const getInitValue = () => {

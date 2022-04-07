@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import axios from "../js/axios";
-import { api_key } from "../js/requests";
+import axios from "../../js/axios";
+import { api_key } from "../../js/requests";
 import { useParams } from "react-router-dom";
-import VideoCard from "./VideoCard";
-import "../Styles/KnownForMovies.css";
+import VideoCard from "../Movie/VideoCard";
+import "../../Styles/KnownForMovies.css";
 
 const KnownForMovies = () => {
 	const { id } = useParams();

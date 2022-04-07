@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Styles/EpisodeBar.css";
+import "../../Styles/EpisodeBar.css";
 import StarIcon from "@material-ui/icons/Star";
 
 const EpisodeBar = ({ episode: ep }) => {

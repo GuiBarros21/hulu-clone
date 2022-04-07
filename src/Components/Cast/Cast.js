@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "../Styles/Cast.css";
+import "../../Styles/Cast.css";
 import { useParams } from "react-router-dom";
-import axios from "../js/axios";
-import { api_key } from "../js/requests";
+import axios from "../../js/axios";
+import { api_key } from "../../js/requests";
 import CastCard from "./CastCard";
 
 const Cast = () => {

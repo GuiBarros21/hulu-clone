@@ -6,7 +6,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import PeopleAltIcon from "@material-ui/icons/PeopleAlt";
 import { IconButton } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import "../Styles/Header.css";
+import "../../Styles/Header.css";
 
 const Header = () => {
 	const [active, setActive] = useState("Home");

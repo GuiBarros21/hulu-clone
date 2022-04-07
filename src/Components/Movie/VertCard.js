@@ -5,9 +5,9 @@ import GradeIcon from "@material-ui/icons/Grade";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { IconButton } from "@material-ui/core";
-import "../Styles/VideoCard.css";
-import "../Styles/VertCard.css";
-import { base } from "../js/requests";
+import "../../Styles/VideoCard.css";
+import "../../Styles/VertCard.css";
+import { base } from "../../js/requests";
 
 const VertCard = ({ movie, setWatchList }) => {
 	const title = movie ? movie.title || movie.name : "";

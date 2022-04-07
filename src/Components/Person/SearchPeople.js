@@ -1,11 +1,11 @@
-import axios from "../js/axios";
+import axios from "../../js/axios";
 import React, { useEffect, useRef, useState } from "react";
-import { api_key } from "../js/requests";
+import { api_key } from "../../js/requests";
 import SearchIcon from "@material-ui/icons/Search";
 import Person from "./Person";
 import { IconButton } from "@material-ui/core";
-import "../Styles/SearchPeople.css";
-import "../Styles/Search.css";
+import "../../Styles/SearchPeople.css";
+import "../../Styles/Search.css";
 
 const SearchPeople = () => {
 	const getInitValue = () => {

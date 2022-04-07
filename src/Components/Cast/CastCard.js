@@ -1,6 +1,6 @@
 import React from "react";
-import { base } from "../js/requests";
-import "../Styles/CastCard.css";
+import { base } from "../../js/requests";
+import "../../Styles/CastCard.css";
 
 const CastCard = ({ member }) => {
 	return (

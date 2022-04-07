@@ -3,8 +3,8 @@ import GradeIcon from "@material-ui/icons/Grade";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import TextTruncate from "react-text-truncate";
 import { Link } from "react-router-dom";
-import "../Styles/VideoCard.css";
-import { base } from "../js/requests";
+import "../../Styles/VideoCard.css";
+import { base } from "../../js/requests";
 
 const VideoCard = forwardRef(({ movie }, ref) => {
 	return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import "../Styles/SeasonBar.css";
+import "../../Styles/SeasonBar.css";
 
 const SeasonBar = ({ item }) => {
 	const { movieID, mediaType } = useParams();

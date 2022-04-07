@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "../Styles/Similars.css";
+import "../../Styles/Similars.css";
 import { useParams } from "react-router-dom";
-import axios from "../js/axios";
-import { api_key } from "../js/requests";
+import axios from "../../js/axios";
+import { api_key } from "../../js/requests";
 import VideoCard from "./VideoCard";
 
 const Similars = () => {

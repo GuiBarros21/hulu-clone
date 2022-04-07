@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "../Styles/SeasonDetail.css";
+import "../../Styles/SeasonDetail.css";
 import EpisodeBar from "./EpisodeBar";
-import axios from "../js/axios";
-import { base, api_key } from "../js/requests";
+import axios from "../../js/axios";
+import { base, api_key } from "../../js/requests";
 
 const SeasonDetail = () => {
 	const { movieID, seasonNumber } = useParams();

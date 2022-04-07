@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import axios from "../js/axios";
-import { api_key } from "../js/requests";
-import VertCard from "./VertCard";
-import "../Styles/WatchList.css";
+import axios from "../../js/axios";
+import { api_key } from "../../js/requests";
+import VertCard from "../Movie/VertCard";
+import "../../Styles/WatchList.css";
 
 const WatchList = ({ watchList, setWatchList }) => {
 	const [movies, setMovies] = useState([]);

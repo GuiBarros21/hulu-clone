@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
-import axios from "../js/axios";
-import { api_key, base } from "../js/requests";
-import "../Styles/Seasons.css";
+import axios from "../../js/axios";
+import { api_key, base } from "../../js/requests";
+import "../../Styles/Seasons.css";
 import SeasonBar from "./SeasonBar";
 
 const Seasons = () => {

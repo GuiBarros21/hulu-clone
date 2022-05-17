@@ -2,7 +2,6 @@
 	"name": "hulu-clone",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://guibarros21.github.io/hulu-clone/",
 	"dependencies": {
 		"-": "^0.0.1",
 		"@material-ui/core": "^4.11.0",
